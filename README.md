@@ -131,3 +131,9 @@ There are many ways you can contribute even if you don't code:
 ## License
 
 [GNU Affero General Public License v3.0](license.txt)
+
+## Dinext maintained references
+
+The maintained line of this fork is `dinext/main/main`. Selected vendor snapshots use `dinext/vendor/<line>`; company task branches use `dinext/feature/<task>`, `dinext/fix/*` or `dinext/upgrade/*`. Upstream branch names elsewhere in this README describe the original project. For Dinext work, use origin `https://github.com/Dinext-pro/print_designer.git` and the maintained Dinext line. Contributors may use their own branch names in external forks.
+
+Future authorized release tags use `dinext/<upstream-tag>` or `dinext/<upstream-tag>-dinext.N`; application and upstream versions are unchanged. Existing published tags remain immutable. This reference-name transition enables no deployment, publishing or automatic upstream synchronization.
